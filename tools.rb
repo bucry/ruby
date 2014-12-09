@@ -74,7 +74,8 @@ class Engines < EnginesManager
 											chapter.add_attribute nameDate[subFindIndex], va
 										end
 									else
-										chapter.add_attribute nameDate[subFindIndex], fullData[findIndex][subFindIndex]
+										#chapter.add_attribute nameDate[subFindIndex], fullData[findIndex][subFindIndex]
+										chapter.add_attribute nameDate[subFindIndex], ""
 									end
 									
 								rescue Exception

@@ -112,7 +112,8 @@ class Engines < EnginesManager
 														chapter.add_attribute nameDate[subFindIndex], va
 													end
 												elsif
-													chapter.add_attribute nameDate[subFindIndex], value[rootIndex][subFindIndex]
+													#chapter.add_attribute nameDate[subFindIndex], value[rootIndex][subFindIndex]
+													chapter.add_attribute nameDate[subFindIndex], ""
 												end
 												
 											rescue Exception
